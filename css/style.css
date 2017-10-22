@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,700');
+
+body {
+	background: #614186 url(../img/bg.jpg);
+	background-size: cover;
+	color: #000;
+	font: 400 12px/1.4 'Roboto', sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 810px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-product {
+	background: #fff;
+	position: relative;
+}
+
+.ba-product:before,
+.ba-product:after {
+	content: "";
+	position: absolute;
+	background: #FFF;
+	opacity: 0.2;
+	z-index: -1;
+}
+
+.ba-product:before {
+	top: 11px;
+	left: -12px;
+	bottom: 11px;
+	right: -12px;
+}
+
+.ba-product:after {
+	top: 22px;
+	left: -24px;
+	bottom: 22px;
+	right: -24px;
+}
+
+.ba-product__body {
+	float: left;
+	width: 33.33%;
+	padding: 43px 31px;
+}
+
+.ba-slider {
+	width: 66.67%;
+	float: left;
+	background: #f4f4f4;
+	padding: 50px;
+}
+
+.ba-size {
+	margin: 20px 0 35px;
+}
+
+.ba-size__label {
+	display: block;
+}
+
+.ba-radio input {
+	display: none;
+}
+
+.ba-radio__text {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	min-width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 24px;
+	padding: 0 3px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	margin-right: 5px;
+	transition: border-color .3s;
+}
+
+.ba-radio__text:hover {
+	border-color: #ccc;
+}
+
+:checked + .ba-radio__text {
+	border-color: #000;
+} 
+
+
+
+

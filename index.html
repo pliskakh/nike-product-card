@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike Product Card</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<!-- BEGIN ba-container  -->
+	<div class="ba-container">
+		<header class="ba-header">
+			<a href="#" class="ba-logo">	
+				<img src="img/logo.png" alt="logo">
+			</a>
+
+			<nav class="ba-nav">
+				<ul class="ba-menu">
+					<li><a href="">Lifestyle</a></li>
+					<li><a href="">Running</a></li>
+					<li><a href="">Football</a></li>
+					<li><a href="">Skateboarding</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<main>
+			<article class="ba-product">
+				<div class="cf">
+					<div class="ba-slider">
+						<img src="img/img_h.png" alt="sneckers">
+					</div>
+					
+					<div class="ba-product__body">
+						<div class="ba-product__badge">
+							New
+						</div>
+
+						<h1 class="ba-product__title">
+							The <span>Running</span> Has Just Begun
+						</h1>
+
+						<div class="ba-product__rating">
+							Huarache
+							<i class="ba-star"></i>
+							<i class="ba-star"></i>
+							<i class="ba-star"></i>
+							<i class="ba-star"></i>
+							<i class="ba-star"></i>
+						</div>
+
+						<div class="ba-product__price">
+							$200
+						</div>
+
+						<form action="#" method="post" class="ba-form-add-to-cart">
+							<input type="hidden" name="price" value="200">
+							<input type="hidden" name="product-id" value="3214">
+
+							<div class="ba-size">
+								<span class = "ba-size__label">Size</span>
+
+								<label class="ba-radio">
+									<input type="radio" name="size" value="7">
+									<span class="ba-radio__text">7</span>
+								</label>
+								<label class="ba-radio">
+									<input type="radio" name="size" value="8">
+									<span class="ba-radio__text">8</span>
+								</label>
+								<label class="ba-radio">
+									<input type="radio" name="size" value="9">
+									<span class="ba-radio__text">9</span>
+								</label>
+								<label class="ba-radio">
+									<input type="radio" name="size" value="10">
+									<span class="ba-radio__text">10</span>
+								</label>
+								<label class="ba-radio">
+									<input type="radio" name="size" value="11" checked>
+									<span class="ba-radio__text">11</span>
+								</label>
+							</div>
+							<button class="ba-button ba-button--add-to-cart" type="submit">Add to cart</button>
+							<button class="ba-button">Wishlist</button>
+						</form>
+					</div>
+				</div>
+			</article>
+		</main>
+	</div>
+	<!-- END ba-container -->
+</body>
+</html>
